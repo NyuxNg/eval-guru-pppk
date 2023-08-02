@@ -1,0 +1,34 @@
+.table-bordered.cards {
+	border: 0 !important;
+}
+.cards thead {
+	display: none;
+}
+
+.cards tbody tr {
+	float: left;
+	width: 50%;
+	/* margin: 0.5em; */
+	/* border: 1px solid #bfbfbf; */
+	border-radius: 0.5em;
+	background-color: transparent !important;
+	/* box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25); */
+}
+.cards tbody tr td {
+	display: block;
+	border: 0;
+}
+
+/* .cards p {
+	text-align: center;
+	color: limegreen;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #000;
+	margin-bottom: 1.2em;
+} */
+
+textarea {
+    text-align: justify;
+    white-space: normal;
+}
